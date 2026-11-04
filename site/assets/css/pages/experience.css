@@ -1,0 +1,21 @@
+/* Página de experiência profissional. */
+.page-experience .timeline { padding: 12px 0 44px; }
+.page-experience .timeline-entry { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 26px; padding: 26px 0 28px; border-bottom: 1px solid var(--rule); }
+.page-experience .timeline-date { padding-top: 6px; color: #82887f; font: 9px var(--mono); letter-spacing: .04em; }
+.page-experience .timeline-content { max-width: 690px; }
+.page-experience .timeline-content h2 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.45; letter-spacing: -.35px; }
+.page-experience .timeline-content h2 span { color: var(--muted); font-size: 12px; font-weight: 400; }
+.page-experience .timeline-content .job-title { margin: 2px 0 10px; color: var(--muted); font-size: 11px; }
+.page-experience .timeline-content p { margin: 10px 0; }
+.page-experience .timeline-content ul { margin: 8px 0 10px; padding-left: 18px; }
+.page-experience .timeline-content li { padding-left: 2px; }
+.page-experience .timeline-heading { display: flex; align-items: center; gap: 15px; min-height: 54px; margin-bottom: 10px; }
+.page-experience .company-logo { display: block; flex: 0 0 58px; width: 58px; height: 50px; object-fit: contain; }
+.page-experience .timeline-heading > div { min-width: 0; }
+.page-experience .timeline-heading .job-title { margin-bottom: 0; }
+
+@media (max-width: 760px) {
+  .page-experience .timeline-entry { grid-template-columns: 1fr; gap: 12px; padding: 21px 0 24px; }
+  .page-experience .timeline-heading { gap: 12px; }
+  .page-experience .company-logo { flex-basis: 52px; width: 52px; height: 46px; }
+}

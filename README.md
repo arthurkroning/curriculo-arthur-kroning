@@ -53,14 +53,17 @@ Depois, acesse [http://localhost:4173/site/](http://localhost:4173/site/).
 │       └── pages.yml       # Publica o site no GitHub Pages
 ├── site/
 │   ├── assets/             # Foto de perfil e logos
+│   │   ├── css/
+│   │   │   ├── base.css    # Tokens, navegação e estilos compartilhados
+│   │   │   └── pages/      # Um stylesheet para cada página
+│   │   └── js/
+│   │       └── navigation.js # Menu móvel compartilhado
 │   ├── index.html          # Página inicial
 │   ├── experiencia.html
 │   ├── formacao.html
 │   ├── projetos.html
 │   ├── sobre.html
 │   ├── contato.html
-│   ├── styles.css
-│   ├── script.js
 │   └── Curriculo.pdf       # PDF disponível para download
 └── README.md
 ```

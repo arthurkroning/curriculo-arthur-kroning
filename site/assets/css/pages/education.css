@@ -1,0 +1,37 @@
+/* Página de formação, cursos e idiomas. */
+.page-education .content-block { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 26px; padding: 35px 0; border-bottom: 1px solid var(--rule); }
+.page-education .content-block > .section-label { padding-top: 3px; }
+.page-education .education-list { max-width: 720px; }
+.page-education .education-item { display: flex; justify-content: space-between; gap: 18px; padding: 0 0 20px; margin-bottom: 20px; border-bottom: 1px solid var(--rule); }
+.page-education .education-item:last-child { padding: 0; margin: 0; border: 0; }
+.page-education .education-item h2 { margin: 0; font-size: 14px; font-weight: 600; line-height: 1.45; letter-spacing: -.35px; }
+.page-education .education-item p { margin: 3px 0 0; color: var(--muted); font-size: 11px; }
+.page-education .job-date { padding-top: 5px; color: #858b82; font-size: 8px; letter-spacing: .035em; white-space: nowrap; }
+.page-education .education-identity { display: flex; align-items: flex-start; gap: 13px; min-width: 0; }
+.page-education .education-logo { display: block; flex: 0 0 44px; width: 44px; height: 44px; object-fit: contain; }
+.page-education .education-identity > div { min-width: 0; }
+.page-education .cert-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.page-education .cert-item { min-height: 140px; padding: 12px 14px; border: 1px solid var(--rule); background: rgba(255, 255, 255, .48); }
+.page-education .cert-item > span { color: #858b82; font-size: 8px; }
+.page-education .cert-item h2 { margin: 0; font-size: 12px; font-weight: 600; line-height: 1.45; letter-spacing: -.35px; }
+.page-education .cert-heading { display: flex; align-items: flex-start; gap: 9px; margin-top: 7px; }
+.page-education .provider-logo { display: block; flex: 0 0 30px; width: 30px; height: 30px; object-fit: contain; }
+.page-education .cert-item p { margin: 8px 0 0; color: #70766e; font-size: 10px; line-height: 1.65; }
+.page-education .language-block { align-items: start; }
+.page-education .language-row { display: flex; justify-content: space-between; gap: 30px; min-width: 260px; padding: 6px 0; font-size: 11px; }
+.page-education .language-row span:last-child { color: var(--muted); }
+
+@media (max-width: 760px) {
+  .page-education .content-block { grid-template-columns: 1fr; gap: 12px; padding: 26px 0; }
+  .page-education .cert-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .page-education .cert-item { padding: 10px; }
+  .page-education .education-logo { flex-basis: 40px; width: 40px; height: 40px; }
+  .page-education .education-identity { gap: 10px; }
+}
+
+@media (max-width: 430px) {
+  .page-education .education-item { display: block; }
+  .page-education .education-item .job-date { display: block; }
+  .page-education .cert-grid { grid-template-columns: 1fr; }
+  .page-education .language-row { min-width: 0; }
+}

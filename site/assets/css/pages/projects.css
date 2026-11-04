@@ -1,0 +1,18 @@
+/* Página de projetos e trabalhos em desenvolvimento. */
+.page-projects .project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 28px 0 48px; }
+.page-projects .project-card { position: relative; display: flex; flex-direction: column; min-height: 245px; padding: 20px; border: 1px solid var(--rule); background: rgba(255, 255, 255, .52); transition: background .2s, border-color .2s, transform .2s; }
+.page-projects .project-card:hover { transform: translateY(-2px); border-color: #ccd1c7; background: #fff; }
+.page-projects .project-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.page-projects .project-kind,
+.page-projects .project-status { font: 8px var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+.page-projects .project-kind { color: #858b82; }
+.page-projects .project-status { padding: 5px 8px; border-radius: 20px; background: #e9ede5; color: #63725a; }
+.page-projects .project-card h2 { max-width: 360px; margin: 35px 0 8px; font-size: 22px; font-weight: 500; letter-spacing: -.7px; }
+.page-projects .project-card p { max-width: 430px; margin: 0; color: #666c65; font-size: 11px; line-height: 1.8; }
+.page-projects .project-card .tags { margin-top: auto; padding-top: 20px; }
+.page-projects .project-card-link { position: absolute; right: 20px; bottom: 22px; color: var(--accent); font-size: 11px; }
+.page-projects .project-card .tags span { background: #f0f1ed; }
+
+@media (max-width: 760px) {
+  .page-projects .project-grid { grid-template-columns: 1fr; }
+}
