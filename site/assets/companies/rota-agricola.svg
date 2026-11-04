@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 58" role="img" aria-label="Rota Agrícola">
+  <circle cx="28" cy="28" r="22" fill="#e6b53e"/>
+  <path d="M16 37c0-11 8-19 22-20-2 7-7 12-15 14 5 1 10 0 15-3-4 8-12 12-22 9z" fill="#47764e"/>
+  <text x="60" y="31" fill="#3c4b37" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="-.5">ROTA</text>
+  <text x="62" y="45" fill="#718067" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="2">AGRÍCOLA</text>
+</svg>

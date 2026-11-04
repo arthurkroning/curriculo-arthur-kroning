@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 58" role="img" aria-label="osirnet">
+  <circle cx="27" cy="26" r="20" fill="#83bd4a"/>
+  <path d="M16 28c4 9 17 12 24 4-5 1-9-2-10-6 3-5 2-10-1-14-2 7-8 10-13 10 1 2 1 4 0 6z" fill="#fff"/>
+  <text x="55" y="36" fill="#17345b" font-family="Arial,sans-serif" font-size="27" font-weight="600" letter-spacing="-1">osirnet</text>
+</svg>
