@@ -27,22 +27,29 @@ Este projeto transforma o currículo tradicional em uma experiência web respons
 
 O site é estático e não precisa de framework, instalação de dependências ou processo de compilação.
 
-## Executar localmente
+## Acesse o currículo online
 
-Clone o repositório e entre na pasta:
+O site está publicado pelo GitHub Pages:
+
+[arthurkroning.github.io/curriculo-arthur-kroning](https://arthurkroning.github.io/curriculo-arthur-kroning/)
+
+## Como baixar o projeto
+
+### Baixar como ZIP
+
+1. Abra o [repositório no GitHub](https://github.com/arthurkroning/curriculo-arthur-kroning).
+2. Clique em **Code** e escolha **Download ZIP**.
+3. Extraia o arquivo ZIP na sua máquina.
+
+### Clonar com Git
+
+Se o Git estiver instalado, execute:
 
 ```bash
 git clone https://github.com/arthurkroning/curriculo-arthur-kroning.git
-cd curriculo-arthur-kroning
 ```
 
-Você pode abrir `site/index.html` diretamente no navegador. Para servir localmente usando Python:
-
-```bash
-python -m http.server 4173
-```
-
-Depois, acesse [http://localhost:4173/site/](http://localhost:4173/site/).
+O site hospedado pode ser acessado pelo link do GitHub Pages acima. O repositório contém os arquivos-fonte organizados na pasta `site/`.
 
 ## Estrutura do projeto
 
