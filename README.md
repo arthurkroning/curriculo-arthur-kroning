@@ -27,6 +27,10 @@ Este projeto transforma o currículo tradicional em uma experiência web respons
 
 O site é estático e não precisa de framework, instalação de dependências ou processo de compilação.
 
+## Ferramentas de desenvolvimento
+
+- **OpenAI Codex:** ferramenta de IA usada como apoio na implementação, refatoração, documentação e revisão do projeto.
+
 ## Acesse o currículo online
 
 O site está publicado pelo GitHub Pages:
